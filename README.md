@@ -3,12 +3,12 @@
 This repository provides a PyTorch implementation of Proximal Policy Optimization (PPO) 
 for deep reinforcement learning (RL), where [Pytorch RPC module](https://pytorch.org/docs/stable/rpc.html) 
 is applied for multiple environment runners.
-This repo is tested in Python 3.10 under Ubuntu 22.04 LTS.
+This repository is tested in Python 3.10 under Ubuntu 22.04 LTS.
 
 
-The repository includes examples for single-agent PPO training in environments 
+The repository includes examples for **single-agent** PPO training in environments 
 like [Gymnasium](https://gymnasium.farama.org/index.html)’s ["CartPole-v1", "LunarLander-v3"] and 
-cooperative multi-agent environments ["navigation", "road_traffic"] from 
+**cooperative multi-agent environments** ["navigation", "road_traffic"] from 
 [VMAS](https://github.com/proroklab/VectorizedMultiAgentSimulator). 
 In cooperative multi-agent tasks, a centralized state is formed by concatenating the observations of all agents, 
 with each agent’s individual reward guiding the learning process. 
